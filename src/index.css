@@ -1,0 +1,110 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(16, 0, 94);
+  padding: 4rem;
+  font-family: Impact;
+  margin: 0;
+}
+
+button {
+  border: 2px solid rgb(16, 0, 94);
+  border-radius: 3rem;
+  padding: 0.4rem 1rem;
+  margin: 0.7rem;
+  background-color: white;
+}
+
+button:hover {
+  background-color: rgb(16, 0, 94);
+  color: white;
+}
+
+#titles {
+  display: flex;
+  margin: 0 0 2rem 0;
+  color: gray;
+}
+
+#nameTitle{
+  position: absolute;
+  left: 5rem;
+}
+
+#amountTitle {
+  position: absolute;
+  left: 10rem;
+}
+
+ul { list-style-type: none; }
+
+li { margin: 0.3rem; }
+
+.datarow li { display: inline-block; }
+
+
+#amount {
+  position: absolute;
+  left: 10rem;
+}
+
+#total {
+  color: gray;
+  margin: 0.7rem 0.7rem 0.7rem 4rem;
+}
+
+#listArea { 
+  width: 20rem;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 lightgray;
+}
+
+#search {
+  padding: 2rem;
+  margin: 1rem 1rem 1rem 2rem;
+  width: 15rem;
+  position: absolute;
+  left: 22rem;
+  top: 10.5rem;
+  color: rgb(16, 0, 94);
+  font-family: Impact;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 lightgray;
+}
+
+#info { 
+  margin: 0 0 1rem 0;
+  font-size: 18px;
+  text-align: center;
+}
+input {
+  width: 15rem;
+  align-items: center;
+}
+
+#showSearch {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+  sans-serif; 
+  color: black;
+}
+
+#errorMessage {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+  sans-serif; 
+  color: red;
+}
